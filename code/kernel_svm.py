@@ -78,6 +78,7 @@ plt.ylabel('Geschatte inkomsten')
 plt.show()
 
 
+# FINDING BEST PARAMS FOR MY NON LINEAR SVM
 """best params for my set"""
 svc = SVC()
 
