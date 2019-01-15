@@ -12,7 +12,7 @@ from matplotlib.colors import ListedColormap
 from sklearn.model_selection import GridSearchCV
 
 # Importing the dataset
-dataset = pd.read_csv('Social_Network_Ads.csv')
+dataset = pd.read_csv('../dataset/Social_Network_Ads.csv')
 X = dataset.iloc[:, [2, 3]].values
 y = dataset.iloc[:, 4].values
 
